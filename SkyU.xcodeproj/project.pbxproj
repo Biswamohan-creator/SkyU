@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78AC9A9296DE6EC008DDDCB /* SkyUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9A8296DE6EC008DDDCB /* SkyUApp.swift */; };
+		D78AC9AB296DE6EC008DDDCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9AA296DE6EC008DDDCB /* ContentView.swift */; };
+		D78AC9AD296DE6ED008DDDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AC9AC296DE6ED008DDDCB /* Assets.xcassets */; };
+		D78AC9B0296DE6ED008DDDCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AC9AF296DE6ED008DDDCB /* Preview Assets.xcassets */; };
+		D78AC9BA296DE6EE008DDDCB /* SkyUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9B9296DE6EE008DDDCB /* SkyUTests.swift */; };
+		D78AC9C4296DE6EE008DDDCB /* SkyUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9C3296DE6EE008DDDCB /* SkyUUITests.swift */; };
+		D78AC9C6296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9C5296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D78AC9B6296DE6EE008DDDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78AC99D296DE6EC008DDDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78AC9A4296DE6EC008DDDCB;
+			remoteInfo = SkyU;
+		};
+		D78AC9C0296DE6EE008DDDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78AC99D296DE6EC008DDDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78AC9A4296DE6EC008DDDCB;
+			remoteInfo = SkyU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D78AC9A5296DE6EC008DDDCB /* SkyU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AC9A8296DE6EC008DDDCB /* SkyUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUApp.swift; sourceTree = "<group>"; };
+		D78AC9AA296DE6EC008DDDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D78AC9AC296DE6ED008DDDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D78AC9AF296DE6ED008DDDCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D78AC9B5296DE6EE008DDDCB /* SkyUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AC9B9296DE6EE008DDDCB /* SkyUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUTests.swift; sourceTree = "<group>"; };
+		D78AC9BF296DE6EE008DDDCB /* SkyUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AC9C3296DE6EE008DDDCB /* SkyUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUUITests.swift; sourceTree = "<group>"; };
+		D78AC9C5296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78AC9A2296DE6EC008DDDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9B2296DE6EE008DDDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9BC296DE6EE008DDDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78AC99C296DE6EC008DDDCB = {
+			isa = PBXGroup;
+			children = (
+				D78AC9A7296DE6EC008DDDCB /* SkyU */,
+				D78AC9B8296DE6EE008DDDCB /* SkyUTests */,
+				D78AC9C2296DE6EE008DDDCB /* SkyUUITests */,
+				D78AC9A6296DE6EC008DDDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78AC9A6296DE6EC008DDDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78AC9A5296DE6EC008DDDCB /* SkyU.app */,
+				D78AC9B5296DE6EE008DDDCB /* SkyUTests.xctest */,
+				D78AC9BF296DE6EE008DDDCB /* SkyUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D78AC9A7296DE6EC008DDDCB /* SkyU */ = {
+			isa = PBXGroup;
+			children = (
+				D78AC9A8296DE6EC008DDDCB /* SkyUApp.swift */,
+				D78AC9AA296DE6EC008DDDCB /* ContentView.swift */,
+				D78AC9AC296DE6ED008DDDCB /* Assets.xcassets */,
+				D78AC9AE296DE6ED008DDDCB /* Preview Content */,
+			);
+			path = SkyU;
+			sourceTree = "<group>";
+		};
+		D78AC9AE296DE6ED008DDDCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D78AC9AF296DE6ED008DDDCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D78AC9B8296DE6EE008DDDCB /* SkyUTests */ = {
+			isa = PBXGroup;
+			children = (
+				D78AC9B9296DE6EE008DDDCB /* SkyUTests.swift */,
+			);
+			path = SkyUTests;
+			sourceTree = "<group>";
+		};
+		D78AC9C2296DE6EE008DDDCB /* SkyUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D78AC9C3296DE6EE008DDDCB /* SkyUUITests.swift */,
+				D78AC9C5296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift */,
+			);
+			path = SkyUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78AC9A4296DE6EC008DDDCB /* SkyU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AC9C9296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyU" */;
+			buildPhases = (
+				D78AC9A1296DE6EC008DDDCB /* Sources */,
+				D78AC9A2296DE6EC008DDDCB /* Frameworks */,
+				D78AC9A3296DE6EC008DDDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyU;
+			productName = SkyU;
+			productReference = D78AC9A5296DE6EC008DDDCB /* SkyU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D78AC9B4296DE6EE008DDDCB /* SkyUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AC9CC296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyUTests" */;
+			buildPhases = (
+				D78AC9B1296DE6EE008DDDCB /* Sources */,
+				D78AC9B2296DE6EE008DDDCB /* Frameworks */,
+				D78AC9B3296DE6EE008DDDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78AC9B7296DE6EE008DDDCB /* PBXTargetDependency */,
+			);
+			name = SkyUTests;
+			productName = SkyUTests;
+			productReference = D78AC9B5296DE6EE008DDDCB /* SkyUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D78AC9BE296DE6EE008DDDCB /* SkyUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AC9CF296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyUUITests" */;
+			buildPhases = (
+				D78AC9BB296DE6EE008DDDCB /* Sources */,
+				D78AC9BC296DE6EE008DDDCB /* Frameworks */,
+				D78AC9BD296DE6EE008DDDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78AC9C1296DE6EE008DDDCB /* PBXTargetDependency */,
+			);
+			name = SkyUUITests;
+			productName = SkyUUITests;
+			productReference = D78AC9BF296DE6EE008DDDCB /* SkyUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78AC99D296DE6EC008DDDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D78AC9A4296DE6EC008DDDCB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D78AC9B4296DE6EE008DDDCB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D78AC9A4296DE6EC008DDDCB;
+					};
+					D78AC9BE296DE6EE008DDDCB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D78AC9A4296DE6EC008DDDCB;
+					};
+				};
+			};
+			buildConfigurationList = D78AC9A0296DE6EC008DDDCB /* Build configuration list for PBXProject "SkyU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D78AC99C296DE6EC008DDDCB;
+			productRefGroup = D78AC9A6296DE6EC008DDDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78AC9A4296DE6EC008DDDCB /* SkyU */,
+				D78AC9B4296DE6EE008DDDCB /* SkyUTests */,
+				D78AC9BE296DE6EE008DDDCB /* SkyUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78AC9A3296DE6EC008DDDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AC9B0296DE6ED008DDDCB /* Preview Assets.xcassets in Resources */,
+				D78AC9AD296DE6ED008DDDCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9B3296DE6EE008DDDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9BD296DE6EE008DDDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78AC9A1296DE6EC008DDDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AC9AB296DE6EC008DDDCB /* ContentView.swift in Sources */,
+				D78AC9A9296DE6EC008DDDCB /* SkyUApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9B1296DE6EE008DDDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AC9BA296DE6EE008DDDCB /* SkyUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AC9BB296DE6EE008DDDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AC9C6296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift in Sources */,
+				D78AC9C4296DE6EE008DDDCB /* SkyUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D78AC9B7296DE6EE008DDDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78AC9A4296DE6EC008DDDCB /* SkyU */;
+			targetProxy = D78AC9B6296DE6EE008DDDCB /* PBXContainerItemProxy */;
+		};
+		D78AC9C1296DE6EE008DDDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78AC9A4296DE6EC008DDDCB /* SkyU */;
+			targetProxy = D78AC9C0296DE6EE008DDDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D78AC9C7296DE6EE008DDDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D78AC9C8296DE6EE008DDDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D78AC9CA296DE6EE008DDDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyU/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D78AC9CB296DE6EE008DDDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyU/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D78AC9CD296DE6EE008DDDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyU";
+			};
+			name = Debug;
+		};
+		D78AC9CE296DE6EE008DDDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyU";
+			};
+			name = Release;
+		};
+		D78AC9D0296DE6EE008DDDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyU;
+			};
+			name = Debug;
+		};
+		D78AC9D1296DE6EE008DDDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6JZSS9MPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sravan.SkyUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78AC9A0296DE6EC008DDDCB /* Build configuration list for PBXProject "SkyU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AC9C7296DE6EE008DDDCB /* Debug */,
+				D78AC9C8296DE6EE008DDDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AC9C9296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AC9CA296DE6EE008DDDCB /* Debug */,
+				D78AC9CB296DE6EE008DDDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AC9CC296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AC9CD296DE6EE008DDDCB /* Debug */,
+				D78AC9CE296DE6EE008DDDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AC9CF296DE6EE008DDDCB /* Build configuration list for PBXNativeTarget "SkyUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AC9D0296DE6EE008DDDCB /* Debug */,
+				D78AC9D1296DE6EE008DDDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D78AC99D296DE6EC008DDDCB /* Project object */;
+}
