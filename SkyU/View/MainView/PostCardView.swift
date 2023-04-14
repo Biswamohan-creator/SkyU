@@ -89,6 +89,14 @@ struct PostCardView: View {
                 })
             }
         }
+        .onDisappear{
+            // MARK: Applying Snapshot listener only when the post is available on the screen
+            // Else removing the listener (it saves unwanted live updates from the posts which was swiped away from the screen)
+            if let docListener {
+                docListener.remove()
+                self.docListener = nil
+            }
+        }
     }
     
     // MARK: Like/Dislike Interaction
