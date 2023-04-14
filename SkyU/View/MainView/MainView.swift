@@ -11,17 +11,19 @@ struct MainView: View {
     var body: some View {
         // MARK: TabView with recent posts and profile tabs
         TabView {
-            Text("Recent Posts")
+            PostsView()
                 .tabItem {
                     Image(systemName: "rectangle.portrait.on.rectangle.portrait.angled")
                     Text("Posts")
                 }
-            Text("Profile View")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Profile")
                 }
         }
+        // Changing tab label tint to black
+        .tint(.black)
     }
 }
 

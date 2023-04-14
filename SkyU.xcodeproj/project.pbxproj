@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72AB54429E6CEE6006658AF /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AB54329E6CEE6006658AF /* CreateNewPost.swift */; };
+		D72AB54629E6CF58006658AF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AB54529E6CF58006658AF /* Post.swift */; };
+		D72AB54829E7B939006658AF /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AB54729E7B939006658AF /* PostsView.swift */; };
+		D72AB54A29E82C56006658AF /* ReusablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AB54929E82C56006658AF /* ReusablePostsView.swift */; };
+		D72AB54C29E8374E006658AF /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AB54B29E8374E006658AF /* PostCardView.swift */; };
+		D76DF51829D194B0007EBCDE /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76DF51729D194B0007EBCDE /* ReusableProfileContent.swift */; };
+		D76DF51B29D198B8007EBCDE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D76DF51A29D198B8007EBCDE /* SDWebImageSwiftUI */; };
 		D78AC9A9296DE6EC008DDDCB /* SkyUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9A8296DE6EC008DDDCB /* SkyUApp.swift */; };
 		D78AC9AB296DE6EC008DDDCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AC9AA296DE6EC008DDDCB /* ContentView.swift */; };
 		D78AC9AD296DE6ED008DDDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AC9AC296DE6ED008DDDCB /* Assets.xcassets */; };
@@ -33,6 +40,7 @@
 		D7A63908299B82D200B5BBD3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A63907299B82D200B5BBD3 /* RegisterView.swift */; };
 		D7A6390B299B836600B5BBD3 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6390A299B836600B5BBD3 /* View+Extensions.swift */; };
 		D7A6390D299B83E300B5BBD3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6390C299B83E300B5BBD3 /* MainView.swift */; };
+		D7DDCBDB299D6B0A009163D3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDCBDA299D6B0A009163D3 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72AB54329E6CEE6006658AF /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		D72AB54529E6CF58006658AF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D72AB54729E7B939006658AF /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		D72AB54929E82C56006658AF /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
+		D72AB54B29E8374E006658AF /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		D76DF51729D194B0007EBCDE /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
 		D78AC9A5296DE6EC008DDDCB /* SkyU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78AC9A8296DE6EC008DDDCB /* SkyUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUApp.swift; sourceTree = "<group>"; };
 		D78AC9AA296DE6EC008DDDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +84,7 @@
 		D7A63907299B82D200B5BBD3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D7A6390A299B836600B5BBD3 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		D7A6390C299B83E300B5BBD3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D7DDCBDA299D6B0A009163D3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76DF51B29D198B8007EBCDE /* SDWebImageSwiftUI in Frameworks */,
 				D78AC9D8296DE9DF008DDDCB /* FirebaseAuth in Frameworks */,
 				D78AC9E5296EAF94008DDDCB /* FirebaseStorage in Frameworks */,
 				D78AC9E1296EAF94008DDDCB /* FirebaseFirestore in Frameworks */,
@@ -176,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				D78AC9E6296EBE1A008DDDCB /* User.swift */,
+				D72AB54529E6CF58006658AF /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +217,12 @@
 			isa = PBXGroup;
 			children = (
 				D7A6390C299B83E300B5BBD3 /* MainView.swift */,
+				D7DDCBDA299D6B0A009163D3 /* ProfileView.swift */,
+				D76DF51729D194B0007EBCDE /* ReusableProfileContent.swift */,
+				D72AB54329E6CEE6006658AF /* CreateNewPost.swift */,
+				D72AB54729E7B939006658AF /* PostsView.swift */,
+				D72AB54929E82C56006658AF /* ReusablePostsView.swift */,
+				D72AB54B29E8374E006658AF /* PostCardView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -233,6 +256,7 @@
 				D78AC9E0296EAF94008DDDCB /* FirebaseFirestore */,
 				D78AC9E2296EAF94008DDDCB /* FirebaseFirestoreSwift */,
 				D78AC9E4296EAF94008DDDCB /* FirebaseStorage */,
+				D76DF51A29D198B8007EBCDE /* SDWebImageSwiftUI */,
 			);
 			productName = SkyU;
 			productReference = D78AC9A5296DE6EC008DDDCB /* SkyU.app */;
@@ -308,6 +332,7 @@
 			mainGroup = D78AC99C296DE6EC008DDDCB;
 			packageReferences = (
 				D78AC9D6296DE9DF008DDDCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D76DF51929D198B7007EBCDE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = D78AC9A6296DE6EC008DDDCB /* Products */;
 			projectDirPath = "";
@@ -354,12 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76DF51829D194B0007EBCDE /* ReusableProfileContent.swift in Sources */,
 				D78AC9E7296EBE1A008DDDCB /* User.swift in Sources */,
+				D7DDCBDB299D6B0A009163D3 /* ProfileView.swift in Sources */,
+				D72AB54A29E82C56006658AF /* ReusablePostsView.swift in Sources */,
+				D72AB54629E6CF58006658AF /* Post.swift in Sources */,
 				D7A6390D299B83E300B5BBD3 /* MainView.swift in Sources */,
 				D78AC9DC296DEADF008DDDCB /* LoginView.swift in Sources */,
 				D78AC9AB296DE6EC008DDDCB /* ContentView.swift in Sources */,
 				D7A6390B299B836600B5BBD3 /* View+Extensions.swift in Sources */,
+				D72AB54429E6CEE6006658AF /* CreateNewPost.swift in Sources */,
+				D72AB54829E7B939006658AF /* PostsView.swift in Sources */,
 				D7A63908299B82D200B5BBD3 /* RegisterView.swift in Sources */,
+				D72AB54C29E8374E006658AF /* PostCardView.swift in Sources */,
 				D78AC9EB296ECEDE008DDDCB /* LoadingView.swift in Sources */,
 				D78AC9A9296DE6EC008DDDCB /* SkyUApp.swift in Sources */,
 			);
@@ -694,6 +726,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D76DF51929D198B7007EBCDE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		D78AC9D6296DE9DF008DDDCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -705,6 +745,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D76DF51A29D198B8007EBCDE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D76DF51929D198B7007EBCDE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
 		D78AC9D7296DE9DF008DDDCB /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D78AC9D6296DE9DF008DDDCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
