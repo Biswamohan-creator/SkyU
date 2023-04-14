@@ -117,6 +117,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72AB54F29E95349006658AF /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				D72AB54729E7B939006658AF /* PostsView.swift */,
+				D72AB54929E82C56006658AF /* ReusablePostsView.swift */,
+				D72AB54B29E8374E006658AF /* PostCardView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		D72AB55029E9536C006658AF /* ProfileVIew */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDCBDA299D6B0A009163D3 /* ProfileView.swift */,
+				D76DF51729D194B0007EBCDE /* ReusableProfileContent.swift */,
+			);
+			path = ProfileVIew;
+			sourceTree = "<group>";
+		};
 		D78AC99C296DE6EC008DDDCB = {
 			isa = PBXGroup;
 			children = (
@@ -217,12 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				D7A6390C299B83E300B5BBD3 /* MainView.swift */,
-				D7DDCBDA299D6B0A009163D3 /* ProfileView.swift */,
-				D76DF51729D194B0007EBCDE /* ReusableProfileContent.swift */,
 				D72AB54329E6CEE6006658AF /* CreateNewPost.swift */,
-				D72AB54729E7B939006658AF /* PostsView.swift */,
-				D72AB54929E82C56006658AF /* ReusablePostsView.swift */,
-				D72AB54B29E8374E006658AF /* PostCardView.swift */,
+				D72AB55029E9536C006658AF /* ProfileVIew */,
+				D72AB54F29E95349006658AF /* PostView */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
