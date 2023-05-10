@@ -9,9 +9,11 @@ import SwiftUI
 import Firebase
 
 struct ReusablePostsView: View {
+    var basedOnUID: Bool = false
+    var uid: String = ""
     @Binding var posts: [Post]
     /// - View Properties
-    @State var isFetching: Bool = true
+    @State private var isFetching: Bool = true
     /// - Pagination
     @State private var paginationDoc: QueryDocumentSnapshot?
     var body: some View {
@@ -37,8 +39,12 @@ struct ReusablePostsView: View {
         }
         .refreshable {
             /// - Scroll to refresh
+            /// Disabling refresh for UID based posts
+            guard !basedOnUID else {return}
             isFetching = true
             posts = []
+            /// Resetting Pagination Doc
+            paginationDoc = nil
             await fetchPosts()
         }
         .task {
@@ -93,6 +99,14 @@ struct ReusablePostsView: View {
                     .order(by: "publishedDate", descending: true)
                     .limit(to: 20)
             }
+            
+            /// - New Query for UID based document fetch
+            /// - Simply filter the posts which is not belong to this UID
+            if basedOnUID {
+                query = query
+                    .whereField("userUID", isEqualTo: uid)
+            }
+            
             let docs = try await query.getDocuments()
             let fetchedPosts = docs.documents.compactMap { doc -> Post? in
                 try? doc.data(as: Post.self)
