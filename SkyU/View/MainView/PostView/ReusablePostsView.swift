@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseFirestore
 
 struct ReusablePostsView: View {
     var basedOnUID: Bool = false
@@ -120,7 +121,7 @@ struct ReusablePostsView: View {
             print(error.localizedDescription)
         }
     }
-}
+} 
 
 struct ReusablePostsView_Previews: PreviewProvider {
     static var previews: some View {

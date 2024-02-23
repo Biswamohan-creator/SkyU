@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>560379465420-oeca5qeeqjmr9hl8pbjtoiakkvrb982p.apps.googleusercontent.com</string>
+	<string>330169243770-d0pq0b1jebhl8nku0ut6lo4od1vsg0c7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.560379465420-oeca5qeeqjmr9hl8pbjtoiakkvrb982p</string>
+	<string>com.googleusercontent.apps.330169243770-d0pq0b1jebhl8nku0ut6lo4od1vsg0c7</string>
 	<key>API_KEY</key>
-	<string>AIzaSyApNZPA6d1wfjio5lAepJqoSpkWdGMOuhc</string>
+	<string>AIzaSyDg7qkEXimU-PqcgINyeFMDxeA22zi_ly4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>560379465420</string>
+	<string>330169243770</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>sravan.SkyU</string>
 	<key>PROJECT_ID</key>
-	<string>skyu-8d236</string>
+	<string>skyu-3ac16</string>
 	<key>STORAGE_BUCKET</key>
-	<string>skyu-8d236.appspot.com</string>
+	<string>skyu-3ac16.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:560379465420:ios:7cd3d5f71ff7de9983fc69</string>
+	<string>1:330169243770:ios:d3d238bfa4414904f3c3c3</string>
 </dict>
 </plist>
