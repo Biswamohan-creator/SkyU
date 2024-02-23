@@ -46,9 +46,6 @@
 		D78AC9AA296DE6EC008DDDCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D78AC9AC296DE6ED008DDDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D78AC9AF296DE6ED008DDDCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D78AC9B9296DE6EE008DDDCB /* SkyUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUTests.swift; sourceTree = "<group>"; };
-		D78AC9C3296DE6EE008DDDCB /* SkyUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUUITests.swift; sourceTree = "<group>"; };
-		D78AC9C5296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D78AC9DB296DEADF008DDDCB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D78AC9E6296EBE1A008DDDCB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D78AC9EA296ECEDE008DDDCB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -98,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				D78AC9A7296DE6EC008DDDCB /* SkyU */,
-				D78AC9B8296DE6EE008DDDCB /* SkyUTests */,
-				D78AC9C2296DE6EE008DDDCB /* SkyUUITests */,
 				D78AC9A6296DE6EC008DDDCB /* Products */,
 				D78AC9DF296EAF94008DDDCB /* Frameworks */,
 			);
@@ -133,23 +128,6 @@
 				D78AC9AF296DE6ED008DDDCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D78AC9B8296DE6EE008DDDCB /* SkyUTests */ = {
-			isa = PBXGroup;
-			children = (
-				D78AC9B9296DE6EE008DDDCB /* SkyUTests.swift */,
-			);
-			path = SkyUTests;
-			sourceTree = "<group>";
-		};
-		D78AC9C2296DE6EE008DDDCB /* SkyUUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D78AC9C3296DE6EE008DDDCB /* SkyUUITests.swift */,
-				D78AC9C5296DE6EE008DDDCB /* SkyUUITestsLaunchTests.swift */,
-			);
-			path = SkyUUITests;
 			sourceTree = "<group>";
 		};
 		D78AC9D9296DEA97008DDDCB /* View */ = {
